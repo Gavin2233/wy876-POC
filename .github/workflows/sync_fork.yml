@@ -18,7 +18,7 @@ jobs:
         run: |
           # 设置 Git 用户信息（全局生效）
           git config --global user.email "852614921@qq.com"
-          git config --global user.name "Gavin2233"
+          git config --global user.name "gavin2233"
           
           # 确认 Git 用户信息是否正确
           echo "Git user.name: $(git config --global user.name)"
